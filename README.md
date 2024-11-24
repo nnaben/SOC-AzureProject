@@ -28,9 +28,9 @@ List of the components of the mini honeynet architecture in Azure consists are a
 - Azure Storage Account (named sacyberlab02)
 - Microsoft Sentinel (the same with Log Analytic Workspace (LAW-Cyber-Lab))
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+For the "BEFORE" metrics, all resources were initially deployed with exposure to the internet. The Virtual Machines had their Network Security Groups and built-in firewalls configured with minimal restrictions, leaving them wide open. Additionally, all other resources were deployed with public endpoints accessible from the internet, without utilizing Private Endpoints.
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+In contrast, for the "AFTER" metrics, Network Security Groups were strengthened by blocking all traffic except from my admin workstation. Furthermore, all other resources were secured using their built-in firewalls and configured with Private Endpoints for added protection.
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG-Malicious-Allowed-in](https://github.com/user-attachments/assets/0fbcaa00-3aed-4993-8b37-a6e233762ec8)
@@ -44,9 +44,11 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+The table below shows the metrics measured in our insecure environment for 24 hours:
+Start Time 2024-11-20T03:52:31.4824089Z
+Stop Time 2024-11-20T03:52:31.4824089Z
+
+![image](https://github.com/user-attachments/assets/3941ab28-0012-4df9-be3e-b58d13bc6fd0)
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -62,9 +64,12 @@ Stop Time 2023-03-16 17:04:29
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+The table below presents the metrics recorded in our environment over a 24-hour period after implementing security controls, from:  
+start time of 2024-11-21T16:30:35.9639737Z to the 
+stop time of 2024-11-22T16:30:35.9639737Z.     
+
+![image](https://github.com/user-attachments/assets/90639303-c8ca-4168-8efd-2c90c158b0e5)
+
 
 | Metric                   | Count
 | ------------------------ | -----
