@@ -16,9 +16,9 @@ This project involves creating a mini honeynet in Azure and integrating logs fro
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture Diagram](https://github.com/user-attachments/assets/11009a76-aed1-4806-acfc-09d3912fe377)
 
-List of the components of the mini honeynet architecture in Azure consists are as follows:
+List of the components of the mini honeynet architecture in Azure are as follows:
 
 - Network Security Group (NSG)
 - Virtual Machines (1 linux vm and 2 windows vms)
