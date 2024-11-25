@@ -12,7 +12,7 @@ This project involves creating a mini honeynet in Azure and integrating logs fro
 - SecurityIncident --> Incidents created by Sentinel
 - AzureNetworkAnalytics_CL --> Malicious Flows allowed into our honeynet
 
-![Architecture Diagram](https://github.com/user-attachments/assets/b8bdf328-247b-4ef6-ba91-3a660fe1f382)
+![Architecture Diagram](https://github.com/user-attachments/assets/6d70bd34-c445-4feb-9907-0c711d4eedd3)
 
 
 ![Architecture Diagram](https://github.com/user-attachments/assets/11009a76-aed1-4806-acfc-09d3912fe377)
