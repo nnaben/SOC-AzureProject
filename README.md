@@ -15,7 +15,6 @@ This project involves creating a mini honeynet in Azure and integrating logs fro
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
-## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://github.com/user-attachments/assets/11009a76-aed1-4806-acfc-09d3912fe377)
 
 List of the components of the mini honeynet architecture in Azure are as follows:
